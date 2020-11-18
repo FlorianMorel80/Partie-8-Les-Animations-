@@ -1,0 +1,11 @@
+.invisible{
+    opacity: 0;
+    transform: translateY(20px);
+}
+.visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: .8s cubic-bezier(.8, 0, 0, 1);
+}
+
+/* https://cubic-bezier.com/ */

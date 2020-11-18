@@ -1,0 +1,9 @@
+.invisible{
+    visibility: hidden;
+}
+
+.visible{
+    visibility:visible;
+    transition:all ease-in 0.3s;
+}
+
